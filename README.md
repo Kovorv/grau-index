@@ -28,6 +28,7 @@
 | --- | --- | --- |
 | [**grau_index.html**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.1/grau_index.html) | 49.9 MB | 单文件网页，中文／俄文双语界面，双击用浏览器打开即可 |
 | [**GRAU_index_v1.4.2.1.exe**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.1/GRAU_index_v1.4.2.1.exe) | 32.8 MB | 原生 Windows 程序（WinForms），免安装、不依赖浏览器、无需额外运行时 |
+| [**grau_index.v1.4.2.1.zip**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.1/grau_index.v1.4.2.1.zip) | 118.7 MB | **完整交付包**：单文件网页 + 原生程序 + CSV／xlsx + 参考文献 + 免责声明 + `thumbs/` 缩略图目录 + `源码/` |
 | [免责声明.txt](免责声明.txt) | 3 KB | 完整免责声明 |
 | [参考文献.md](参考文献.md) | 310 KB | 1 418 条参考文献目录 |
 
