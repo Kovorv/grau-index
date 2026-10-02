@@ -1,6 +1,7 @@
 # ГРАУ / ГАУ 索引号总表
 
 ![version](https://img.shields.io/badge/version-v1.4.2-blue)
+![release](https://img.shields.io/github/v/release/Kovorv/grau-index?label=release&color=blue)
 ![entries](https://img.shields.io/badge/entries-11%20619-green)
 ![cards](https://img.shields.io/badge/wiki%20cards-2%20227-orange)
 ![platform](https://img.shields.io/badge/platform-Windows%20%7C%20Browser-lightgrey)
@@ -13,10 +14,12 @@
 
 ## 下载
 
+> 📦 **[Releases 页面](https://github.com/Kovorv/grau-index/releases/latest)** —— 从那里下载，每个附件的下载次数由 GitHub 官方统计（仓库 Traffic 里的 Clones 并不等于下载量）。
+
 | 文件 | 大小 | 说明 |
 | --- | --- | --- |
-| [**grau_index.html**](https://github.com/Kovorv/grau-index/raw/main/grau_index.html) | 49.0 MB | 单文件网页，中文／俄文双语界面，双击用浏览器打开即可 |
-| [**GRAU_index_v1.4.2.exe**](https://github.com/Kovorv/grau-index/raw/main/GRAU_index_v1.4.2.exe) | 32.6 MB | 原生 Windows 程序（WinForms），免安装、不依赖浏览器、无需额外运行时 |
+| [**grau_index.html**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2/grau_index.html) | 49.0 MB | 单文件网页，中文／俄文双语界面，双击用浏览器打开即可 |
+| [**GRAU_index_v1.4.2.exe**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2/GRAU_index_v1.4.2.exe) | 32.6 MB | 原生 Windows 程序（WinForms），免安装、不依赖浏览器、无需额外运行时 |
 | [免责声明.txt](免责声明.txt) | 3 KB | 完整免责声明 |
 | [参考文献.md](参考文献.md) | 214 KB | 1 070 条参考文献目录 |
 
