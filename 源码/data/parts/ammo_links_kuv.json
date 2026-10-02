@@ -1,0 +1,53 @@
+{
+  "built": "2026-10-03",
+  "scope": "КУВ «Кобра» / «Агона» — the 125-мм tank guided-weapon complexes, their launching gun and their carrier tanks, plus the Т-64А test bed. Purpose: the user's example («9К117 is fired by many tanks and guns, yet links to none») — the complex rows carried their rounds but no platforms.",
+  "links": {
+    "9К112": ["2А46-2", "Т-64А"],
+    "9К112-1": ["2А46-2", "Т-72", "Т-80БВ", "Т-80БВК"],
+    "9К117": ["2А46-2", "Т-64Б2", "Т-80Б2"]
+  },
+  "sources": {
+    "9К112|2А46-2": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "ПУ/танк | 2А46-2/Т-64Б,БВ;  Т-80Б,БВ, БВК"
+    },
+    "9К112|Т-64А": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "**9К112** (1975г.)-опытный вариант. Испытания комплекса 9К112 \"Кобра\" проводились в 1975 году на объекте 447 (переоборудованном танке Т-64А)"
+    },
+    "9К112-1|2А46-2": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "ПУ/танк | 2А46-2/Т-64Б,БВ;  Т-80Б,БВ, БВК"
+    },
+    "9К112-1|Т-72": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "**9К112-1 \"Кобра-У**\"(1984г.)- \"универсальная\", модификация для танков Т-64Б и  Т-72"
+    },
+    "9К112-1|Т-80БВ": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "**9К112-1**(1978г.) - модификация для Т-80Б, БВ с ракетой 9М112М (1979-84г)  с увеличенной на 20% бронепробиваемостью"
+    },
+    "9К112-1|Т-80БВК": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "ПУ/танк | 2А46-2/Т-64Б,БВ;  Т-80Б,БВ, БВК"
+    },
+    "9К117|2А46-2": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "ПУ/танк | 2А46-2/Т-64Б,БВ;  Т-80Б,БВ, БВК"
+    },
+    "9К117|Т-64Б2": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "**9К117 \"Агона\"** (1988г)- модернизация комплекса 9К112 с ракетой 9М128 \"Зенит\" с тандемной боевой частью (ТКБЧ.)  танки Т-64Б2, Т-80Б2 Могут также использоваться ракеты  9М112М2, 9М124."
+    },
+    "9К117|Т-80Б2": {
+      "url": "http://war-russia.info/index.php/nomenklatura-vooruzhenij/21-sukhoputnye-vojska/29-protivotankovye-raketnye-kompleksy-ptrk-ushechnye-kompleksy-upravlyaemogo-vooruzheniya-kuv/1261-opytnyj-ptrk-sprut-1961g-2",
+      "quote": "**9К117 \"Агона\"** (1988г)- модернизация комплекса 9К112 с ракетой 9М128 \"Зенит\" с тандемной боевой частью (ТКБЧ.)  танки Т-64Б2, Т-80Б2 Могут также использоваться ракеты  9М112М2, 9М124."
+    }
+  },
+  "notes": [
+    "Source page is a Номенклатура вооружений article compiled from Ангельский Р.Д. «Отечественные противотанковые комплексы» (Астрель/АСТ, 2002) and «КОБРЫ» стегут страну советов» (Техника и вооружение 2006 №7) — the same book the project's earlier КУВ research used.",
+    "Direction is written as «complex → the tank/gun it belongs to»; the build's direction pass keeps it (usedOn means «this row belongs to the other row»), and the tank/gun side shows the complex under 构成部件.",
+    "Rows named here that the catalogue still lacks (Т-64А, Т-80БВ, Т-80БВК, Т-64Б2, Т-80Б2) are being added by the platform-row research pass; until such a row exists the build silently skips that one edge (unknown idx), so this file is safe to ship before them.",
+    "9К112 already carried Т-64Б / Т-64БВ / Т-84 and 9К112-1 carried Т-64Б / Т-80Б from ammo_links_a.json; only the new pairs are listed here."
+  ]
+}
