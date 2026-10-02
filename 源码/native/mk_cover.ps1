@@ -15,7 +15,7 @@ $cw = 292; $ch = 158; $gap = 8
 $x0 = [int](($W - (3 * $cw + 2 * $gap)) / 2)
 $y0 = 168
 for ($i = 0; $i -lt $pics.Count; $i++) {
-  $p = "D:\DsHs\grau\grau_index.v1.2\thumbs\" + $pics[$i]
+  $p = "D:\DsHs\grau\grau_index.v1.4.6\thumbs\" + $pics[$i]
   if (-not (Test-Path $p)) { continue }
   $col = $i % 3; $row = [int][math]::Floor($i / 3)
   $x = $x0 + $col * ($cw + $gap); $y = $y0 + $row * ($ch + $gap)
@@ -43,8 +43,8 @@ $acc = [System.Drawing.SolidBrush]::new([System.Drawing.Color]::FromArgb(98, 170
 
 $g.DrawString('ГРАУ / ГАУ 索引号总表', $fTitle, $brush, [System.Drawing.RectangleF]::new(0, 34, $W, 46), $sf)
 $g.DrawString('Указатель индексов ГРАУ / ГАУ  ·  русско-китайский', $fRu, $dim, [System.Drawing.RectangleF]::new(0, 88, $W, 24), $sf)
-$g.DrawString('11 556 条索引  ·  1 418 张图片  ·  21 类器材  ·  卡层含俄／英／中维基', $fSub, $brush, [System.Drawing.RectangleF]::new(0, 118, $W, 24), $sf)
-$g.DrawString('整理：@防空妖精哥特兰', $fBy, $acc, [System.Drawing.RectangleF]::new(0, 512, $W, 20), $sf)
+$g.DrawString('11 799 条索引  ·  1 785 张图片  ·  23 类器材  ·  卡层含俄／英／中维基', $fSub, $brush, [System.Drawing.RectangleF]::new(0, 118, $W, 24), $sf)
+$g.DrawString('整理：@科夫罗夫机械（防空妖精哥特羊）', $fBy, $acc, [System.Drawing.RectangleF]::new(0, 512, $W, 20), $sf)
 $g.DrawString('正在载入数据…', $fBy, $dim, [System.Drawing.RectangleF]::new(0, 536, $W, 20), $sf)
 
 $g.Dispose()

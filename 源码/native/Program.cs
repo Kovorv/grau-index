@@ -42,7 +42,7 @@ namespace GrauIndex
             using (Font f1 = new Font("Microsoft YaHei", 11.5f, FontStyle.Bold))
             using (Font f2 = new Font("Microsoft YaHei", 9f))
             {
-                e.Graphics.DrawString("整理：@防空妖精哥特兰 · @Deepseek · 三陆问题研究中心", f1, sb, 18, ClientSize.Height - bandH + 10);
+                e.Graphics.DrawString("整理：@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心", f1, sb, 18, ClientSize.Height - bandH + 10);
                 e.Graphics.DrawString("本索引为个人整理的非官方公开资料汇编，仅供检索参考，不代表任何官方名录；", f2, sb, 18, ClientSize.Height - bandH + 40);
                 e.Graphics.DrawString("编号、描述与译名可能存在错漏，请以原始来源为准。  ·  Неофициальный справочник по открытым источникам.", f2, sb, 18, ClientSize.Height - bandH + 62);
             }

@@ -109,7 +109,7 @@ csc.exe /nologo /target:winexe /platform:anycpu /optimize+ /win32icon:grau.ico /
   这些属于外部抓取缓存，缺失时构建仍可完成，只是「卡片层」的维基摘录与配图会为空。
 * 数据来源与免责声明见交付目录的 ``README.md``、``参考文献.md`` 与 ``免责声明.txt``。
 
-整理：@防空妖精哥特兰 · @Deepseek · 三陆问题研究中心。
+整理：@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心。
 "@
 Set-Content -Path (Join-Path $src 'README-源码.md') -Value $readme -Encoding UTF8
 

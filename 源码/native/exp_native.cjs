@@ -34,7 +34,7 @@ const out = [];
 const put = (...f) => out.push(f.map(clean).join('\t'));
 
 put('#T', 'ГРАУ / ГАУ 索引号总表');
-put('#L', '整理：@防空妖精哥特兰 · @Deepseek · 三陆问题研究中心');
+put('#L', '整理：@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心');
 // Russian names of the numbered sections: the payload only carries the group number,
 // which would render as a bare "Группа 5" in the native tree.
 const NUM_TITLE_RU = {
