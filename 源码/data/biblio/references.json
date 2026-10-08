@@ -101,8 +101,8 @@
   "cat": "网络补充层",
   "title": "Википедия: современная техника ВС РФ — индекс ГРАУ в тексте статьи / инфобоксе",
   "url": "",
-  "note": "补充编号 73 处来源链接（68 个链接）",
-  "n": 73
+  "note": "补充编号 75 处来源链接（70 个链接）",
+  "n": 75
  },
  {
   "cat": "网络补充层",
@@ -127,6 +127,13 @@
  },
  {
   "cat": "网络补充层",
+  "title": "Gunter's Space Page (space.skyrocket.de) — каталог космических аппаратов и их индексов",
+  "url": "",
+  "note": "补充编号 3 处来源链接（3 个链接）",
+  "n": 3
+ },
+ {
+  "cat": "网络补充层",
   "title": "GlobalSecurity.org — «Soviet/Russian Gravity Bombs» (таблица:型号 ↔ 工厂/GRAU 编号)",
   "url": "",
   "note": "补充编号 39 处来源链接（1 个链接）",
@@ -138,6 +145,41 @@
   "url": "",
   "note": "补充编号 7 处来源链接（1 个链接）",
   "n": 7
+ },
+ {
+  "cat": "网络补充层",
+  "title": "Encyclopedia Astronautica (Mark Wade) — карточки советских и российских космических аппаратов",
+  "url": "",
+  "note": "补充编号 1 处来源链接（1 个链接）",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层",
+  "title": "Официальные документы и отчёты (НИУ МАИ и др.) — упоминания индексов ГУКОС/ГРАУ",
+  "url": "",
+  "note": "补充编号 1 处来源链接（1 个链接）",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层",
+  "title": "RussianSpaceWeb.com (Анатолий Зак) — хроника пусков и неофициальные обозначения аппаратов",
+  "url": "",
+  "note": "补充编号 1 处来源链接（1 个链接）",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层",
+  "title": "Русскоязычные новостные и отраслевые сайты (tehnoomsk.ru и др.) — публикации об индексах ГУКОС/ГРАУ",
+  "url": "",
+  "note": "补充编号 1 处来源链接（1 个链接）",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层",
+  "title": "Orbital Radar — база данных пусков (COSPAR, полезные нагрузки)",
+  "url": "",
+  "note": "补充编号 1 处来源链接（1 个链接）",
+  "n": 1
  },
  {
   "cat": "网络补充层",
@@ -9087,13 +9129,6 @@
  },
  {
   "cat": "网络补充层·链接",
-  "title": "14Ф160 — Википедия: современная техника ВС РФ — индекс ГРАУ в тексте ",
-  "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%9B%D0%9E%D0%9D%D0%90%D0%A1%D0%A1",
-  "note": "14Ф160 — индекс космического аппарата ГЛОНАСС-К1 (первого типа серии «Глонасс-К»); приводится по Gunter's Space Page.",
-  "n": 1
- },
- {
-  "cat": "网络补充层·链接",
   "title": "14Ф136 — Википедия: современная техника ВС РФ — индекс ГРАУ в тексте ",
   "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%B0%D1%80%D0%BF%D1%83%D0%BD%20(%D0%BA%D0%BE%D1%81%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82)",
   "note": "КА «Гарпун» (индекс ГУКОС — 14Ф136) — серия российских военных спутников-ретрансляторов, создаваемых для оперативной ретрансляции больших объёмов цифровой информации с космических аппаратов радиотехнической и видовой раз",
@@ -9535,6 +9570,27 @@
  },
  {
   "cat": "网络补充层·链接",
+  "title": "14Ф143 — Википедия: современная техника ВС РФ — индекс ГРАУ в тексте ",
+  "url": "https://space.skyrocket.de/doc_sdat/uragan-k1.htm",
+  "note": "Uragan-K or GLONASS-K (originally called Uragan-K) spacecraft are the third generation of GLONASS navigation satellites.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф170 — Википедия: современная техника ВС РФ — индекс ГРАУ в тексте ",
+  "url": "https://space.skyrocket.de/doc_sdat/uragan-k2-2.htm",
+  "note": "Uragan-K2 (GLONASS-K2, 14F170)",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф160 — Википедия: современная техника ВС РФ — индекс ГРАУ в тексте ",
+  "url": "https://space.skyrocket.de/doc_sdat/uragan-k2.htm",
+  "note": "The prototype Uragan-K2 (GLONASS-K2) satellites are improved versions of the Uragan-K (GLONASS-K) navigation satellite series. The first two Uragan-K2 satellites use the new flat format KAUR-4N bus, while the operational Uragan-K2 satellites revert to a bus derived from the Uragan-K1 version.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
   "title": "ФАБ-50 — С. Сарайкин — статьи по истории РВСН, авиации и бронетехники",
   "url": "http://ser-sarajkin.narod2.ru/ALL_OUT/AiKOut13/AlbanVVS/AlbanVVS004.htm",
   "note": "Под крылом подвешена бомба ФАБ-50. Авиабаза Берат",
@@ -9969,6 +10025,27 @@
  },
  {
   "cat": "网络补充层·链接",
+  "title": "14Ф155 — Gunter's Space Page (space.skyrocket.de) — каталог космическ",
+  "url": "https://space.skyrocket.de/doc_sdat/araks-r.htm",
+  "note": "Araks-R is a planned series of military radar reconniassance satelites developed by NPO Lavochkin.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф30 — Gunter's Space Page (space.skyrocket.de) — каталог космическ",
+  "url": "https://space.skyrocket.de/doc_sdat/luch-2.htm",
+  "note": "The Luch-2 or Gelios satellites were the second generation of Soviet and later Russian data relay satellites.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф01 — Gunter's Space Page (space.skyrocket.de) — каталог космическ",
+  "url": "https://space.skyrocket.de/doc_sdat/neitron.htm",
+  "note": "Neitron, possibly also named Tekhnolog, is a Russian military reconnaissance satellite designed by NPO Mashinostroyeniya, possibly a radar reconnaissance satellite.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
   "title": "9У64、5Ф48、8У46、8У47、8У49、8У57、8У63、8У64 — GlobalSecurity.org — «Soviet/Russian Gravity Bombs» (таблица",
   "url": "https://www.globalsecurity.org/wmd/world/russia/nuke-bomb.htm",
   "note": "RN-40 ... 8U64 ... 30 kt",
@@ -9980,6 +10057,41 @@
   "url": "https://forum.cartridgecollectors.org/uploads/short-url/qsgU0LMZVk7OaqFbXWHtYWuY5LQ.pdf",
   "note": "машина ЗИП ракетного комплекса 15П015",
   "n": 7
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф150 — Encyclopedia Astronautica (Mark Wade) — карточки советских и",
+  "url": "http://astronautix.com/n/napryazhenie.html",
+  "note": "Napryazhenie ... Russian geodetic and technology test satellite. AKA: 14F150. Perhaps part of the Nivelir-ZU (14K167) project. Rendezvous target for the secretive Sputnik Inspector satellite launched at the same time.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф151 — Официальные документы и отчёты (НИУ МАИ и др.) — упоминания ",
+  "url": "https://mai.ru/upload/iblock/58f/01_forma_otchiet_niu_mai_2014.pdf",
+  "note": "8.3. Этап 2014 года ОКР «Обеспечение стойкости космических аппаратов 14Ф151, 14Ф152 к воздействию техногенных факторов» (заказчик – ОАО «Информационные спутниковые системы имени академика М.Ф. Решетнева»)…",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф164 — RussianSpaceWeb.com (Анатолий Зак) — хроника пусков и неофиц",
+  "url": "https://russianspaceweb.com/cosmos-2561.html",
+  "note": "According to unnoficial posts on the Novosti Kosmonavtiki web forum, the rocket was expected to deliver a pair of new-generation military satellites designated 14F164 and 14F172.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф166А — Русскоязычные новостные и отраслевые сайты (tehnoomsk.ru и д",
+  "url": "https://tehnoomsk.ru/archives/18959",
+  "note": "на орбиту выведен новый военный спутник 14Ф166А (Космос-2590), использован разгонный блок «Бриз-М» ... разработан на предприятии «ИСС имени академика М.Ф. Решетнева» и построен на российской телекоммуникационной платформе «Экспресс-2000» ... предназначен для развертывания на геостационарной орбите ... Он является частью комплекса 14К248.",
+  "n": 1
+ },
+ {
+  "cat": "网络补充层·链接",
+  "title": "14Ф172 — Orbital Radar — база данных пусков (COSPAR, полезные нагрузк",
+  "url": "https://orbitalradar.com/launch/2022-10-21-soyuz-2-1v-volga-14f164-14f172",
+  "note": "MKA 14F172 No. 1",
+  "n": 1
  },
  {
   "cat": "网络补充层·链接",
