@@ -181,7 +181,7 @@ const DIS_ZH = [
   ['纠错与署名', '欢迎指出错误、补充资料，将在后续版本中更正。整理：@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心。'],
 ];
 const noteRows = [
-  ['版本', 'GRAU / ГРАУ 索引系统 v' + (process.env.VER || '1.4.3')],
+  ['版本', 'GRAU / ГРАУ 索引系统 v' + (process.env.VER || '1.4.2.2')],
   ['整理', '@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心'],
   ['索引条目', String(idxRows.length) + ' 条'],
   ['参考文献', String(refCount) + ' 条来源'],

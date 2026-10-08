@@ -1,6 +1,6 @@
 # GRAU一站式索引系统
 
-![version](https://img.shields.io/badge/version-v1.4.2.1-blue)
+![version](https://img.shields.io/badge/version-v1.4.2.2-blue)
 ![release](https://img.shields.io/github/v/release/Kovorv/grau-index?label=release&color=blue)
 ![entries](https://img.shields.io/badge/entries-11%20809-green)
 ![cards](https://img.shields.io/badge/wiki%20cards-2%20227-orange)
@@ -12,8 +12,9 @@
 
 > 🌐 **在线使用（免下载）：<https://kovorv.github.io/grau-index/>** —— 同一套界面的网页版，缩略图按需加载，手机／平板浏览器亦可打开。
 
-## v1.4.2.1 更新
+## v1.4.2.2 更新（内容与 v1.4.2.1 一致）
 
+- **版本号推进到 v1.4.2.2**：v1.4.2.1 的修正当日是**在原 release 内就地替换附件**发布的（release 条目与 tag 都没变），下载页上看不出更新；本版推进版本号、重新构建全部产物并单独发布，**数据内容与 v1.4.2.1 完全相同**（没有条目增删）。
 - **字头含义**：新增「字头含义」页（652 项＝22 个序列／局号含义 + 628 个字头含义 + 通用规则），逐条解释 `1А`、`1ПН`、`2А`、`9М`、`Р`、`А3` 这类字头是什么意思，并标注来源与证据强度（**权威／公开／待考**）；原生程序与网页的字头后面**直接显示注解**，悬停可看完整释义与原文引文。
 - **ПВО 反序 6 字头收敛**：按「类别字母 + 6」合并（`48Н6`／`55Ж6`／`58Ж6-01` → `Н6`／`Ж6`），该大类字头 233 → **24**。
 - **老 ГАУ 编号合并**：51…58 八个局号大类合并为 **1 个大类**，字头改为局号（51…58）。
@@ -27,8 +28,8 @@
 
 | 文件 | 大小 | 说明 |
 | --- | --- | --- |
-| [**grau_index.html**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.1/grau_index.html) | 50.0 MB | 单文件网页，中文／俄文双语界面，双击用浏览器打开即可 |
-| [**GRAU_index_v1.4.2.1.exe**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.1/GRAU_index_v1.4.2.1.exe) | 32.8 MB | 原生 Windows 程序（WinForms），免安装、不依赖浏览器、无需额外运行时 |(推荐）
+| [**grau_index.html**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.2/grau_index.html) | 50.0 MB | 单文件网页，中文／俄文双语界面，双击用浏览器打开即可 |
+| [**GRAU_index_v1.4.2.2.exe**](https://github.com/Kovorv/grau-index/releases/download/v1.4.2.2/GRAU_index_v1.4.2.2.exe) | 32.8 MB | 原生 Windows 程序（WinForms），免安装、不依赖浏览器、无需额外运行时 |(推荐）
 
 ## 界面
 

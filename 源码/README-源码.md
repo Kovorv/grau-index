@@ -1,7 +1,7 @@
-﻿# 源码与构建流水线（v1.4.2.1）
+﻿# 源码与构建流水线（v1.4.2.2）
 
-本目录是「ГРАУ / ГАУ 索引号总表 v1.4.2.1」交付包随附的**构建源码**。网页、CSV、xlsx 与原生程序
-（GRAU索引系统v1.4.2.1.exe）都由这里的脚本从 `data` 里的 JSON 数据层重新生成。
+本目录是「ГРАУ / ГАУ 索引号总表 v1.4.2.2」交付包随附的**构建源码**。网页、CSV、xlsx 与原生程序
+（GRAU索引系统v1.4.2.2.exe）都由这里的脚本从 `data` 里的 JSON 数据层重新生成。
 
 ## 目录
 
@@ -27,10 +27,10 @@
 重编原生程序的完整命令（在 `源码/native` 目录下执行；`grau_data.tsv.gz` 与 `img.bin` 由第 8 步生成）：
 
 ```
-csc.exe /nologo /target:winexe /platform:anycpu /optimize+ /win32icon:grau.ico /out:GRAU索引系统v1.4.2.1.exe /reference:System.dll /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /resource:grau_data.tsv.gz,grau_data.tsv.gz /resource:img.bin,img.bin /resource:cover.jpg,cover.jpg /resource:grau.ico,grau.ico Data.cs MainForm.cs Program.cs
+csc.exe /nologo /target:winexe /platform:anycpu /optimize+ /win32icon:grau.ico /out:GRAU索引系统v1.4.2.2.exe /reference:System.dll /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /resource:grau_data.tsv.gz,grau_data.tsv.gz /resource:img.bin,img.bin /resource:cover.jpg,cover.jpg /resource:grau.ico,grau.ico Data.cs MainForm.cs Program.cs
 ```
 
-发布前的收尾：`build_biblio.cjs`（参考文献层，读交付 CSV）→ `readme_v1421.cjs`（README 的版本段落）
+发布前的收尾：`build_biblio.cjs`（参考文献层，读交付 CSV）→ `readme_v1422.cjs`（README 的版本段落）
 → `write_disclaimer.cjs`（免责声明）→ `pack_src.ps1`（本目录）→ 打包 zip。
 `verify_links.cjs` 审计条目间的双向链接（悬空／单向、弹药覆盖率），`make_classprobe.cjs` + `getpre.cjs`
 用 Edge 无头模式跑网页端回归。

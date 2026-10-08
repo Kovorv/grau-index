@@ -1,8 +1,8 @@
 ﻿# 把构建流水线的源码与数据层复制进交付目录的「源码」子文件夹（交付要求：发出去的包必须带源码）。
 # 用法：powershell -NoProfile -ExecutionPolicy Bypass -File D:\DsHs\grau\_raw\pack_src.ps1 -Target <交付目录> -Ver <版本>
 param(
-  [string]$Target = 'D:\DsHs\grau\grau_index.v1.4.2.1',
-  [string]$Ver = '1.4.2.1',
+  [string]$Target = 'D:\DsHs\grau\grau_index.v1.4.2.2',
+  [string]$Ver = '1.4.2.2',
   [switch]$NoData
 )
 $ErrorActionPreference = 'Stop'
@@ -22,7 +22,7 @@ $pipeline = @(
   'build_xlsx.cjs', 'build_oth_csv.cjs',
   'embed_list.cjs', 'embed_resize.ps1', 'embed_build.cjs', 'tsv_sections.cjs',
   'rel_scan.cjs', 'parts_build.cjs', 'parts_add_aliases.cjs',
-  'build_biblio.cjs', 'readme_v1421.cjs', 'write_disclaimer.cjs',
+  'build_biblio.cjs', 'readme_v1421.cjs', 'readme_v1422.cjs', 'write_disclaimer.cjs',
   'verify_links.cjs', 'make_classprobe.cjs', 'getpre.cjs', 'peek_series.cjs', 'peek_idx.cjs', 'dump_classes.cjs'
 )
 # 2) 原生程序（C# 源码 + tsv 导出器）
@@ -89,7 +89,7 @@ $readme = @"
 csc.exe /nologo /target:winexe /platform:anycpu /optimize+ /win32icon:grau.ico /out:GRAU索引系统v$Ver.exe /reference:System.dll /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /resource:grau_data.tsv.gz,grau_data.tsv.gz /resource:img.bin,img.bin /resource:cover.jpg,cover.jpg /resource:grau.ico,grau.ico Data.cs MainForm.cs Program.cs
 ``````
 
-发布前的收尾：``build_biblio.cjs``（参考文献层，读交付 CSV）→ ``readme_v1421.cjs``（README 的版本段落）
+发布前的收尾：``build_biblio.cjs``（参考文献层，读交付 CSV）→ ``readme_v1422.cjs``（README 的版本段落）
 → ``write_disclaimer.cjs``（免责声明）→ ``pack_src.ps1``（本目录）→ 打包 zip。
 ``verify_links.cjs`` 审计条目间的双向链接（悬空／单向、弹药覆盖率），``make_classprobe.cjs`` + ``getpre.cjs``
 用 Edge 无头模式跑网页端回归。

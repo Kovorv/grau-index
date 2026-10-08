@@ -1,7 +1,7 @@
 // standalone disclaimer file for the delivery package root
 const fs = require('fs');
-const P = process.env.OUT || 'D:/DsHs/grau/grau_index.v1.4.2/免责声明.txt';
-const VER = process.env.VER || 'v1.4.2';
+const P = process.env.OUT || 'D:/DsHs/grau/grau_index.v1.4.2.2/免责声明.txt';
+const VER = process.env.VER || 'v1.4.2.2';
 const T = `免责声明 / Отказ от ответственности
 grau_index.${VER} — ГРАУ / ГАУ 索引号总表 + 详查索引
 整理：@科夫罗夫机械（防空妖精哥特羊） · @Deepseek · 三陆问题研究中心

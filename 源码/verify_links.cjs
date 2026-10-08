@@ -1,7 +1,7 @@
 // audit the two-way component layer inside a delivery page payload.
 // usage: node _raw/verify_links.cjs [path-to-grau_index.html]
 const fs = require('fs');
-const FILE = process.argv[2] || 'D:/DsHs/grau/grau_index.v1.4.2.1/grau_index.html';
+const FILE = process.argv[2] || 'D:/DsHs/grau/grau_index.v1.4.2.2/grau_index.html';
 const html = fs.readFileSync(FILE, 'utf8');
 const m = html.match(/<script id="grau-data"[^>]*>([\s\S]*?)<\/script>/);
 if (!m) { console.error('payload not found'); process.exit(1); }

@@ -9,7 +9,7 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
-const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2';
+const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2.2';
 const PAGE = DIR + '/grau_index.linked.html';
 const CACHE = 'D:/DsHs/grau/_raw/embed512';
 const ITEMS = 'D:/DsHs/grau/_raw/embed_items.txt';

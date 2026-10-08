@@ -81,6 +81,7 @@ try {
 const wordingEdges = sumEdges(RAW + '/parts/rel_scan.json');
 const refs = JSON.parse(fs.readFileSync(RAW + '/biblio/references.json', 'utf8'));
 const RE = JSON.parse(fs.readFileSync(RAW + '/refs.json', 'utf8'));
+const n14 = E.filter((e) => /^14Ф/i.test(String(e.idx).replace(/F/gi, 'Ф'))).length;
 
 // ---- the source package that ships inside the delivery (交付要求：发出去的包必须带源码)
 const srcDir = DIR + '/源码';
@@ -131,7 +132,8 @@ const block = [
   '> 3. **老 ГАУ（1935–1956）的 8 个局号合并为一个大类**：此前 `51-А`…`58-П` 是 8 个平行大类（' + num(Object.keys(dept).filter((d) => d >= 51 && d <= 58).length) + ' 个局号、约 81 个字头，每个大类只有几条到几十条），现在合并为**一个大类「老 ГАУ 编号（1935–1956）」**，其下字头就是**局号本身**（`51`／`52`／`53`／`54`／`56`／`57`／`58`，共 ' + num((gau.prefixes || []).length) + ' 个，共 ' + num(gauOldRows) + ' 条记录）；局号含义（例如 52＝火炮与炮架、57＝枪弹与地雷）在「字头含义」页与悬停提示里给出。',
   '> 4. **层级总览**：**' + groups + ' 个索引体系组 → ' + classes + ' 个大类 → ' + num(famTotal) + ' 个字头**（其中不重复 ' + num(famDistinct) + ' 个；v1.4.6 为 28 个大类、912 个字头；本版合并老 ГАУ、收敛 ПВО 反序 6 后为 ' + classes + ' 个大类）。网页、`grau_index.csv`、`grau_index.xlsx`、原生程序四处一致。关联层与上一版相同：**' + num(rowsUsedOn) + ' 行**带「所属装备」（' + num(usedOnLinks) + ' 条）、**' + num(rowsParts) + ' 行**带「构成部件」（' + num(partsLinks) + ' 条），弹药／导弹／反坦克导弹 ' + num(ammoLinked) + ' / ' + num(ammoN) + ' 行至少一端关联，**悬空与单向链接均为 0**。',
   '> 5. **交付包内附完整源码**：`源码/` 子文件夹含构建流水线的全部脚本（`build_all.ps1`、`build_v1.cjs`、`build_v1_tail.cjs`、`v1_client.js`、`sys_classify.cjs`、`rel_scan.cjs`、`parts_build.cjs`、`build_xlsx.cjs`、`embed_*.cjs`、`build_biblio.cjs`、`verify_links.cjs`…）、原生程序源码（`源码/native/Data.cs`、`MainForm.cs`、`Program.cs`、`exp_native.cjs`）与数据层（`源码/data/master.json`、`parts/*.json`、`biblio/references.json`），并附 `源码/README-源码.md` 说明构建顺序与运行环境（Node.js ≥ 18、PowerShell 5.1、.NET Framework 4 `csc`）；照此可重新生成网页、CSV、xlsx 与 exe。本包内源码共 **' + srcFiles + ' 个文件、约 ' + srcMB + ' MB**。',
-  '> 6. 下一步（**尚未完成，勿当已交付**）：年份维度仍将**分批上网核对**后加入；国别暂不涉及；「一句话中文简介」目前取既有中文说明的首句，后续按条目**逐条重新生成**。',
+  '> 6. **数据订正**：补入 **11 条 ГУКОС／ГРАУ 14Ф 索引**（`14Ф11`「纳里亚德」反导系统、`14Ф17`「格洛纳斯」导航卫星、`14Ф132`「箭-3М·泉源」通信卫星、`14Ф133`「康多尔」雷达侦察卫星、`14Ф136`「鱼叉」数据中继卫星、`14Ф137`「角色」光学侦察卫星、`14Ф138`「莲花-С」电子侦察卫星、`14Ф139`「牡丹-НКС」雷达侦察卫星、`14Ф148`「雪豹-М」光学侦察卫星、`14Ф149`「报喜」军用通信卫星、`14Ф160` ГЛОНАСС-К1），并**删除 1 条误收条目 `1РЛС232`**（不见于三处主要来源，也不是 ГРАУ 索引，来源是早期「modern 补充层」；它连带产生的假字头 `1РЛС` 同时消失）。14Ф 一类由 10 条增至 **' + num(n14) + ' 条**，全表 **' + num(total) + ' 条**、字头 **' + num(famDistinct) + ' 个**；35 个新增专名全部补上中文译名（`_raw/nicks_zh/p7.json`），专名表 **' + num(RE.nicks.length) + ' 条全部带中文**。',
+  '> 7. 下一步（**尚未完成，勿当已交付**）：年份维度仍将**分批上网核对**后加入；国别暂不涉及；「一句话中文简介」目前取既有中文说明的首句，后续按条目**逐条重新生成**。',
 ].join('\n');
 
 const anchor = '俄文版是中文版的**子页面**（同一文件内的语言切换 / `#ru`），不是独立文件。\n';

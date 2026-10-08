@@ -1,12 +1,12 @@
 // Build the complete bibliography (参考文献目录) for the delivery from the built CSV,
 // so every entry is traceable to real data rather than to a hand-written list.
 //   node build_biblio.cjs            -> _raw/biblio/references.json + 参考文献.md + references.tsv
-// env: CSV  (default D:/DsHs/grau/grau_index.v1.4.2.1/grau_index.csv)
+// env: CSV  (default D:/DsHs/grau/grau_index.v1.4.2.2/grau_index.csv)
 //      OUT  (default D:/DsHs/grau/_raw/biblio)
 const fs = require('fs');
 const path = require('path');
 
-const CSV = process.env.CSV || 'D:/DsHs/grau/grau_index.v1.4.2.1/grau_index.csv';
+const CSV = process.env.CSV || 'D:/DsHs/grau/grau_index.v1.4.2.2/grau_index.csv';
 const OUT = process.env.OUT || 'D:/DsHs/grau/_raw/biblio';
 fs.mkdirSync(OUT, { recursive: true });
 
