@@ -1,7 +1,7 @@
 // Probe for v1.4.5 index-system classes: search hits per system family + the 索引族 group chips.
 // usage: PROBE_SRC=<page.html> PROBE_OUT=<probe.html> node make_classprobe.cjs
 const fs = require('fs');
-const SRC = process.env.PROBE_SRC || 'D:/DsHs/grau/grau_index.v1.4.5/grau_index.linked.html';
+const SRC = process.env.PROBE_SRC || 'D:/DsHs/grau/grau_index.v1.4.2.1/grau_index.linked.html';
 const OUT = process.env.PROBE_OUT || 'D:/DsHs/grau/_raw/_probe_class.html';
 const TESTS = (process.env.PROBE_TESTS ||
   '48Н6,55Ж6,58Ж6-01,ФАБ-50,А3-ЗС-42,А4-ЖБ,76В157,10П50,1ОП50,ШОЗТ,3-О-12,7-З-1,9-А-016,5-ОП-517').split(',');

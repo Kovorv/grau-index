@@ -7,7 +7,7 @@
 // Out: D:/DsHs/grau/grau_index.v1.2/grau_index.html         (self-contained page)
 const fs = require('fs');
 const path = require('path');
-const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2';
+const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2.1';
 const CACHE = 'D:/DsHs/grau/_raw/embed512';
 const SRC = DIR + '/grau_index.linked.html';
 const OUT = DIR + '/grau_index.html';

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const dir = process.argv[2] || 'D:/DsHs/grau/grau_index.v1.4.5';
+const dir = process.argv[2] || 'D:/DsHs/grau/grau_index.v1.4.2.1';
 const f = fs.readdirSync(dir).filter((n) => /grau_index.*\.html$/.test(n)).sort((a, b) => a.length - b.length)[0];
 const h = fs.readFileSync(dir + '/' + f, 'utf8');
 console.log('file', f, 'len', h.length);

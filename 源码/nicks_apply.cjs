@@ -8,7 +8,7 @@ const cover = JSON.parse(fs.readFileSync(RAW + '/nicks_cover.json', 'utf8'));
 
 const map = Object.assign({}, cover);
 let files = 0;
-for (const f of ['p1', 'p2', 'p3', 'p4', 'p5', 'p6']) {
+for (const f of ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7']) {
   const p = RAW + '/nicks_zh/' + f + '.json';
   if (!fs.existsSync(p)) { console.log('missing ' + f); continue; }
   const j = JSON.parse(fs.readFileSync(p, 'utf8'));

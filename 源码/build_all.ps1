@@ -1,8 +1,8 @@
-param(
-  [string]$Work = 'D:\DsHs\grau\grau_index.v1.1',   # intermediate build directory
-  [string]$Target = 'D:\DsHs\grau\grau_index.v1.4.2', # delivery directory
-  [string]$ExeName = 'GRAU索引系统v1.4.2.exe',
-  [string]$ThumbsFrom = 'D:\DsHs\grau\grau_index.v1.4.2',   # previous delivery: source of thumbs/ and README.md
+﻿param(
+  [string]$Work = 'D:\DsHs\grau\_raw\work_current',   # intermediate build directory
+  [string]$Target = 'D:\DsHs\grau\grau_index.v1.4.2.1', # delivery directory
+  [string]$ExeName = 'GRAU索引系统v1.4.2.1.exe',
+  [string]$ThumbsFrom = 'D:\DsHs\grau\grau_index.v1.4.2.1',   # previous delivery: source of thumbs/ and README.md
   [switch]$SkipZip
 )
 $ErrorActionPreference = 'Stop'

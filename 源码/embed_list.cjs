@@ -1,7 +1,7 @@
 // Collect every thumbs/... reference from the v1.2 page, in first-seen order.
 //   node _raw/embed_list.cjs  ->  _raw/embed_items.txt (one reference per line)
 const fs = require('fs');
-const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2';
+const DIR = process.env.GRAU_DIR || 'D:/DsHs/grau/grau_index.v1.4.2.1';
 const SRC = process.argv[2] || DIR + '/grau_index.linked.html';
 const h = fs.readFileSync(SRC, 'utf8');
 const seen = new Set();

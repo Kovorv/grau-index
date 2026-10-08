@@ -15,7 +15,7 @@ $cw = 292; $ch = 158; $gap = 8
 $x0 = [int](($W - (3 * $cw + 2 * $gap)) / 2)
 $y0 = 168
 for ($i = 0; $i -lt $pics.Count; $i++) {
-  $p = "D:\DsHs\grau\grau_index.v1.4.6\thumbs\" + $pics[$i]
+  $p = "D:\DsHs\grau\grau_index.v1.4.2.1\thumbs\" + $pics[$i]
   if (-not (Test-Path $p)) { continue }
   $col = $i % 3; $row = [int][math]::Floor($i / 3)
   $x = $x0 + $col * ($cw + $gap); $y = $y0 + $row * ($ch + $gap)
